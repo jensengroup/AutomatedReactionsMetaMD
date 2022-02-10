@@ -38,6 +38,8 @@ Results are saved in  as dataframes in .pkl files: 1 for each run
 The results for all runs can be combined using ```combine_runs.py```, which collects all recorded reactions and extracts all 1-step reactions, 
 both are saved as .csv files.
 
+Files for the meta-dynamics product search can be found in ```metadyn_product_search```
+
 
 ## RMSD-PP procedure
 
@@ -112,3 +114,5 @@ The calculations are done by calling
 ```
 ./control_dft_ts.py rmsd_output.csv
 ```
+
+Files for the meta-dynamics product search can be found in ```dft_ts_validation```
